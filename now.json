@@ -1,5 +1,6 @@
 {
   "version": 2,
   "name": "photo-everyday",
-  "alias": ["photo-everyday.now.sh"]
+  "alias": ["photo-everyday.now.sh"],
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }]
 }
